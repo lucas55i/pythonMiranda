@@ -16,7 +16,7 @@ while True:
 
     if input_usuario not in opcoes_validas:
         print("Digite uma opção valida")
-        continue
+        
 
     if input_usuario == 'i':
         item_digitado = input('Informe o que deseja ser adicionado: ')
