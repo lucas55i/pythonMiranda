@@ -38,8 +38,8 @@ while True:
                 lista.pop(item_apagar)
                 print(lista)
     elif input_usuario == 'l':
-
         if len(lista) == 0:
             print('Não há nada listado')
         else:
-            print(lista)
+            for indice, item in enumerate(lista):
+                print(indice, item)
