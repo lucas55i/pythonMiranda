@@ -1,4 +1,4 @@
-# Atributos de classe
+# __dict__ e vars para atibutos de instacias
 class Pessoa:
     ano_atual = 2023
 
@@ -10,4 +10,5 @@ class Pessoa:
         return Pessoa.ano_atual - self.idade 
 
 p1 = Pessoa('João', 32)
-print(p1.get_ano_nascimento())
+print(p1.__dict__)
+print(vars(p1))
